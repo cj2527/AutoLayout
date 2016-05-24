@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yKO-Eg-mte"/>
+                        <viewControllerLayoutGuide type="bottom" id="D4R-PJ-hOT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DQI-AM-2ZM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Oxe-jR-gRF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="50d-Gc-kIM"/>
+                                    <constraint firstAttribute="height" constant="568" id="DGR-L2-yBu"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0g-of-flD">
+                                <rect key="frame" x="6" y="175" width="48" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZn-RK-Xmr">
+                                <rect key="frame" x="6" y="239" width="48" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oxe-jR-gRF" firstAttribute="centerY" secondItem="DQI-AM-2ZM" secondAttribute="centerY" id="0w9-nY-sXV"/>
+                            <constraint firstItem="F0g-of-flD" firstAttribute="centerY" secondItem="DQI-AM-2ZM" secondAttribute="centerY" constant="-84" id="3Oc-uh-nxf"/>
+                            <constraint firstItem="Oxe-jR-gRF" firstAttribute="centerX" secondItem="DQI-AM-2ZM" secondAttribute="centerX" id="4RA-As-OWr"/>
+                            <constraint firstItem="hZn-RK-Xmr" firstAttribute="centerY" secondItem="DQI-AM-2ZM" secondAttribute="centerY" constant="-26" id="TOK-Zm-DlW"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="520"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="38M-ht-6j7">
+            <objects>
+                <viewController id="sHV-up-vWC" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cFc-BK-iBQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="WQd-gH-Dyu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kCm-HB-9HD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7iy-ZL-cJh" userLabel="blue">
+                                <rect key="frame" x="30" y="50" width="260" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Xf0-mU-kwa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMS-WE-dHa" userLabel="red">
+                                <rect key="frame" x="160" y="130" width="130" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7iy-ZL-cJh" firstAttribute="leading" secondItem="kCm-HB-9HD" secondAttribute="leading" constant="30" id="JEV-Cc-zAS"/>
+                            <constraint firstItem="UMS-WE-dHa" firstAttribute="height" secondItem="7iy-ZL-cJh" secondAttribute="height" id="KHE-ch-vzm"/>
+                            <constraint firstItem="UMS-WE-dHa" firstAttribute="top" secondItem="7iy-ZL-cJh" secondAttribute="bottom" constant="30" id="ckp-VN-aM9"/>
+                            <constraint firstItem="UMS-WE-dHa" firstAttribute="leading" secondItem="7iy-ZL-cJh" secondAttribute="centerX" id="fqu-ba-rii"/>
+                            <constraint firstAttribute="trailing" secondItem="7iy-ZL-cJh" secondAttribute="trailing" constant="30" id="hFv-Ah-u4Q"/>
+                            <constraint firstItem="7iy-ZL-cJh" firstAttribute="top" secondItem="cFc-BK-iBQ" secondAttribute="bottom" constant="30" id="rh0-Si-DIV"/>
+                            <constraint firstItem="UMS-WE-dHa" firstAttribute="trailing" secondItem="7iy-ZL-cJh" secondAttribute="trailing" id="wTF-co-PUP"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NBE-nG-bvM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="-379"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_bg" width="640" height="1136"/>
+    </resources>
+</document>
